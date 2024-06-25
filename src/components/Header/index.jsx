@@ -2,11 +2,11 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-light bg-success">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           primary
         </a>
         <button
-          classNameName="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarID"
@@ -18,7 +18,7 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarID">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
+            <a className="nav-link active" aria-current="page" href="/">
               Home
             </a>
           </div>

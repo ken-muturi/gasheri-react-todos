@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
       <Header />
-      <div class="container-fluid">
-        <section class="mt-3 p-3">
-          <div class="d-flex justify-content-center">
+      <div className="container-fluid">
+        <section className="mt-3 p-3">
+          <div className="d-flex justify-content-center">
             <Todos />
           </div>
         </section>
